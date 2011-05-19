@@ -10,25 +10,25 @@ namespace XnaMobileUnit.UnitTests.TestDummies
         }
 
         [TestMethod]
-        public void TestAssertIsFalseFails()
+        public void should_fail_on_assert_IsFalse_with_true_argument()
         {
             Assert.IsFalse(true, "Assert.IsFalse(true)... if this failed then the test is valid");
         }
 
         [TestMethod]
-        public void TestAssertIsTrueFails()
+        public void should_fail_on_assert_IsTrue_with_false_argument()
         {
             Assert.IsTrue(false, "Assert.IsTrue(false)... if this failed then the test is valid");
         }
 
         [TestMethod]
-        public void TestAssertAreEqualFails()
+        public void should_fail_on_assert_are_equal_0_1__integers()
         {
             Assert.AreEqual(0, 1, "Assert.AreEqual(0, 1)... should fail");
         }
 
         [TestMethod]
-        public void TestAssertAreNotEqualFails()
+        public void should_fail_on_assert_are_not_equal_0_0_integers()
         {
             Assert.AreNotEqual(0, 0, "Assert.AreNotEqual(0, 0)... should fail");
         }

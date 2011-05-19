@@ -10,12 +10,14 @@ namespace XnaMobileUnit
 
         public void AddFailedTest(string testClass, TestEventArgs testEventArgs)
         {
-            FailedTests.Add(testEventArgs.TestMethod, testEventArgs);
+            if(!FailedTests.ContainsKey(testEventArgs.TestMethod))
+               FailedTests.Add(testEventArgs.TestMethod, testEventArgs);
         }
 
         public void AddPassedTest(string testClass, TestEventArgs testEventArgs)
         {
-            PassedTests.Add(testEventArgs.TestMethod, testEventArgs);
+            if (!PassedTests.ContainsKey(testEventArgs.TestMethod))
+                PassedTests.Add(testEventArgs.TestMethod, testEventArgs);
         }
     }
 }

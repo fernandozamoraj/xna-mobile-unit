@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ProjectGuid>{9F6E4B0A-2174-4F5D-8F3B-48B5FC1F898E}</ProjectGuid>
+    <ProjectGuid>{6AC062DD-E375-4C34-ADA5-D3AF0A6BFADF}</ProjectGuid>
     <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">Windows Phone</Platform>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>XnaMobileUnit.UnitTests</RootNamespace>
-    <AssemblyName>XnaMobileUnit.UnitTests</AssemblyName>
+    <RootNamespace>DummyGameApp</RootNamespace>
+    <AssemblyName>DummyGameApp</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
     <XnaPlatform>Windows Phone</XnaPlatform>
     <XnaProfile>Reach</XnaProfile>
-    <XnaCrossPlatformGroupID>115e9a9a-d788-4c33-8776-3a1e691fec7b</XnaCrossPlatformGroupID>
+    <XnaCrossPlatformGroupID>bbff590d-db96-4fe8-b4e6-21cf7a01f707</XnaCrossPlatformGroupID>
     <XnaOutputType>Game</XnaOutputType>
     <XapFilename>$(AssemblyName).xap</XapFilename>
     <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
     <XnaWindowsPhoneManifestTemplate>Properties\WMAppManifest.xml</XnaWindowsPhoneManifestTemplate>
     <TileImage>Background.png</TileImage>
-    <TileTitle>XnaMobileUnit.UnitTests</TileTitle>
+    <TileTitle>DummyGameApp</TileTitle>
     <SupportedCultures>
     </SupportedCultures>
     <ApplicationIcon>Game.ico</ApplicationIcon>
@@ -85,15 +85,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FooInDummyAppTest.cs" />
+    <Compile Include="Foo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestDummies\FooTest.cs" />
-    <Compile Include="TestDummies\TestAssertFailure.cs" />
-    <Compile Include="TestDummies\TestAssertPasses.cs" />
-    <Compile Include="TestDummies\TestExpectedException.cs" />
-    <Compile Include="TestDummies\TestMixedPassedAndFailedClass.cs" />
-    <Compile Include="TestDummies\TestOnlyValidMethodsAreCalled.cs" />
-    <Compile Include="TestDummies\TestUnhandledExceptionDuringRunTests.cs" />
     <None Include="Properties\AppManifest.xml">
       <XnaPlatformSpecific>true</XnaPlatformSpecific>
     </None>
@@ -111,16 +104,8 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\DummyGameApp\DummyGameApp\DummyGameApp.csproj">
-      <Project>{6AC062DD-E375-4C34-ADA5-D3AF0A6BFADF}</Project>
-      <Name>DummyGameApp</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\XnaMobileUnit\XnaMobileUnit.csproj">
-      <Project>{DB9A99EB-EDFC-486C-BE28-C8F9CEA82E8E}</Project>
-      <Name>XnaMobileUnit</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\XnaMobileUnit.UnitTestsContent\XnaMobileUnit.UnitTestsContent.contentproj">
-      <Name>XnaMobileUnit.UnitTestsContent</Name>
+    <ProjectReference Include="..\DummyGameAppContent\DummyGameAppContent.contentproj">
+      <Name>DummyGameAppContent</Name>
       <XnaReferenceType>Content</XnaReferenceType>
     </ProjectReference>
   </ItemGroup>

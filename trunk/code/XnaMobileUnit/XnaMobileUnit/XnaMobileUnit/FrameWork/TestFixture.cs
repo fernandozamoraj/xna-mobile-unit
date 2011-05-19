@@ -46,9 +46,19 @@ namespace XnaMobileUnit.FrameWork
             Assert.SetClassName(className);
         }
 
+        internal void Failed(string message)
+        {
+            Assert_FailedTest(this, new TestEventArgs{Expectation = message, Message = "", TestClass = Assert.ClassName, TestMethod = Assert.MethodName});
+        }
+
         public virtual void TearDown()
         {
             
+        }
+
+        public void Passed(string methodName)
+        {
+            Assert_PassedTest(this, new TestEventArgs{TestClass = this.GetType().Name, TestMethod = methodName });
         }
     }
 }

@@ -15,7 +15,7 @@ namespace XnaMobileUnit.Api
         private float _yOffset;
         private float _xOffset;
         private float _fontHeight = 10;
-        private List<TestLine> _testLines = new List<TestLine>();
+        private List<UiTestLine> _testLines = new List<UiTestLine>();
         private float _widestLine;
 
         public TestsUi(Game game) : base(game)
@@ -96,12 +96,28 @@ namespace XnaMobileUnit.Api
 
             if (_testLines == null || _testLines.Count == 0)
             {
-                _testLines = new List<TestLine>();
+                _testLines = new List<UiTestLine>();
 
                 foreach (var line in _testFixtureRunner.GetTestExecutionTree())
                 {
-                    _testLines.Add(new TestLine{Line = line});
-                    float lineWidth = _font.MeasureString(line).X;
+                    string newLine = string.Empty;
+                    
+                    if(line.Passed && !string.IsNullOrEmpty(line.TestMethod))
+                    {
+                        newLine = string.Format("    {0} Test Passed", line.TestMethod);
+                        _testLines.Add(new UiTestLine { Line = newLine });
+                    }
+                    else if (!line.Passed && !string.IsNullOrEmpty(line.TestMethod))
+                    {
+                        _testLines.Add(new UiTestLine{ Line = string.Format("    {0} Test Failed", line.Message)});
+                        _testLines.Add(new UiTestLine{ Line = string.Format("       {0}", line.FailedReason)});
+                    }
+                    else
+                    {
+                        _testLines.Add(new UiTestLine{Line = line.Message});
+                    }
+
+                    float lineWidth = _font.MeasureString(newLine).X;
 
                     if(lineWidth > _widestLine)
                         _widestLine = lineWidth;
@@ -115,14 +131,20 @@ namespace XnaMobileUnit.Api
                 testLine.YPosition = (int)((i*_fontHeight) + _yOffset);
                 if (testLine.YPosition > 0 && testLine.YPosition < 600)
                 {
-                    Color color = Color.Green;
+                    Color color = Color.White;
+                    string line = testLine.Line == null ? string.Empty : testLine.Line;
 
-                    if (testLine.Line.ToUpper().Contains("FAILED"))
+                    if (line.ToUpper().Contains("TEST FAILED") || line.ToUpper().Contains("TESTFIXTURE FAILED"))
                     {
                         color = Color.Red;
                     }
+                    else if (line.ToUpper().Contains("TEST PASSED") || line.ToUpper().Contains("TESTFIXTURE PASSED"))
+                    {
+                        color = Color.Green;
+                    }
 
-                    spriteBatch.DrawString(_font, testLine.Line, new Vector2(_xOffset, testLine.YPosition),
+
+                    spriteBatch.DrawString(_font, line, new Vector2(_xOffset, testLine.YPosition),
                        color);
                 }
                 i++;
@@ -130,11 +152,5 @@ namespace XnaMobileUnit.Api
 
             spriteBatch.End();
         }
-    }
-
-    public class TestLine
-    {
-        public int YPosition;
-        public string Line;
     }
 }
