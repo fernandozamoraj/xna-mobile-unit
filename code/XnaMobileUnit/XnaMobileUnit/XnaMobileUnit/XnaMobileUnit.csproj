@@ -78,6 +78,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Api\TestLine.cs" />
+    <Compile Include="Api\UiTestLine.cs" />
+    <Compile Include="FrameWork\ExpectedExceptionAttribute.cs" />
     <Compile Include="Api\TestsUI.cs" />
     <Compile Include="Assert.cs" />
     <Compile Include="Class1.cs" />

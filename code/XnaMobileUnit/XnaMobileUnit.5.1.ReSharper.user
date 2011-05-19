@@ -7,8 +7,59 @@
     </boolean>
   </SettingsComponent>
   <RecentFiles>
-    <RecentFiles />
-    <RecentEdits />
+    <RecentFiles>
+      <File id="6AC062DD-E375-4C34-ADA5-D3AF0A6BFADF/f:Foo.cs" caret="221" fromTop="11" />
+      <File id="9F6E4B0A-2174-4F5D-8F3B-48B5FC1F898E/f:FooInDummyAppTest.cs" caret="474" fromTop="16" />
+      <File id="9F6E4B0A-2174-4F5D-8F3B-48B5FC1F898E/d:TestDummies/f:TestAssertPasses.cs" caret="0" fromTop="0" />
+      <File id="9F6E4B0A-2174-4F5D-8F3B-48B5FC1F898E/d:TestDummies/f:TestOnlyValidMethodsAreCalled.cs" caret="228" fromTop="8" />
+      <File id="DB9A99EB-EDFC-486C-BE28-C8F9CEA82E8E/f:TestEventArgs.cs" caret="231" fromTop="9" />
+      <File id="d:Miscellaneous Files/f:System.Object.cs/l:C!?Programming Apps?google code?code?xna trunk?code?XnaMobileUnit?_ReSharper.XnaMobileUnit?DecompilerCache?metadata?mscorlib-5a1e?System.Object.cs" caret="455" fromTop="8" />
+      <File id="9F6E4B0A-2174-4F5D-8F3B-48B5FC1F898E/d:TestDummies/f:TestAssertFailure.cs" caret="1005" fromTop="0" />
+      <File id="9F6E4B0A-2174-4F5D-8F3B-48B5FC1F898E/d:TestDummies/f:FooTest.cs" caret="195" fromTop="7" />
+      <File id="DB9A99EB-EDFC-486C-BE28-C8F9CEA82E8E/f:Assert.cs" caret="340" fromTop="0" />
+      <File id="DB9A99EB-EDFC-486C-BE28-C8F9CEA82E8E/d:FrameWork/f:TestMethod.cs" caret="0" fromTop="0" />
+      <File id="DB9A99EB-EDFC-486C-BE28-C8F9CEA82E8E/d:Api/f:TestsUI.cs" caret="3897" fromTop="16" />
+      <File id="9F6E4B0A-2174-4F5D-8F3B-48B5FC1F898E/f:Game1.cs" caret="2353" fromTop="14" />
+      <File id="9F6E4B0A-2174-4F5D-8F3B-48B5FC1F898E/d:TestDummies/f:TestMixedPassedAndFailedClass.cs" caret="0" fromTop="0" />
+      <File id="DB9A99EB-EDFC-486C-BE28-C8F9CEA82E8E/d:FrameWork/f:ExpectedExceptionAttribute.cs" caret="291" fromTop="12" />
+      <File id="DB9A99EB-EDFC-486C-BE28-C8F9CEA82E8E/d:FrameWork/f:TestFixture.cs" caret="1689" fromTop="16" />
+      <File id="DB9A99EB-EDFC-486C-BE28-C8F9CEA82E8E/d:Api/f:TestFixtureRunner.cs" caret="5222" fromTop="10" />
+      <File id="DB9A99EB-EDFC-486C-BE28-C8F9CEA82E8E/f:TestResults.cs" caret="842" fromTop="16" />
+      <File id="9F6E4B0A-2174-4F5D-8F3B-48B5FC1F898E/d:TestDummies/f:TestExpectedException.cs" caret="657" fromTop="5" />
+      <File id="9F6E4B0A-2174-4F5D-8F3B-48B5FC1F898E/d:TestDummies/f:TestUnhandledExceptionDuringRunTests.cs" caret="1017" fromTop="9" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="9F6E4B0A-2174-4F5D-8F3B-48B5FC1F898E/d:TestDummies/f:TestExpectedException.cs" caret="488" fromTop="10" />
+      <File id="9F6E4B0A-2174-4F5D-8F3B-48B5FC1F898E/d:TestDummies/f:TestExpectedException.cs" caret="630" fromTop="12" />
+      <File id="9F6E4B0A-2174-4F5D-8F3B-48B5FC1F898E/d:TestDummies/f:FooTest.cs" caret="84" fromTop="2" />
+      <File id="9F6E4B0A-2174-4F5D-8F3B-48B5FC1F898E/d:TestDummies/f:FooTest.cs" caret="537" fromTop="16" />
+      <File id="9F6E4B0A-2174-4F5D-8F3B-48B5FC1F898E/d:TestDummies/f:FooTest.cs" caret="523" fromTop="15" />
+      <File id="9F6E4B0A-2174-4F5D-8F3B-48B5FC1F898E/d:TestDummies/f:FooTest.cs" caret="195" fromTop="7" />
+      <File id="DB9A99EB-EDFC-486C-BE28-C8F9CEA82E8E/d:Api/f:TestFixtureRunner.cs" caret="3481" fromTop="9" />
+      <File id="DB9A99EB-EDFC-486C-BE28-C8F9CEA82E8E/d:Api/f:TestFixtureRunner.cs" caret="3542" fromTop="0" />
+      <File id="DB9A99EB-EDFC-486C-BE28-C8F9CEA82E8E/d:Api/f:TestFixtureRunner.cs" caret="3145" fromTop="3" />
+      <File id="DB9A99EB-EDFC-486C-BE28-C8F9CEA82E8E/d:Api/f:TestFixtureRunner.cs" caret="3782" fromTop="11" />
+      <File id="DB9A99EB-EDFC-486C-BE28-C8F9CEA82E8E/d:Api/f:TestFixtureRunner.cs" caret="4005" fromTop="8" />
+      <File id="DB9A99EB-EDFC-486C-BE28-C8F9CEA82E8E/d:Api/f:TestFixtureRunner.cs" caret="5792" fromTop="8" />
+      <File id="DB9A99EB-EDFC-486C-BE28-C8F9CEA82E8E/d:Api/f:TestFixtureRunner.cs" caret="6309" fromTop="5" />
+      <File id="DB9A99EB-EDFC-486C-BE28-C8F9CEA82E8E/d:Api/f:TestFixtureRunner.cs" caret="5585" fromTop="14" />
+      <File id="DB9A99EB-EDFC-486C-BE28-C8F9CEA82E8E/d:Api/f:TestFixtureRunner.cs" caret="5470" fromTop="14" />
+      <File id="DB9A99EB-EDFC-486C-BE28-C8F9CEA82E8E/d:FrameWork/f:TestFixture.cs" caret="1668" fromTop="15" />
+      <File id="DB9A99EB-EDFC-486C-BE28-C8F9CEA82E8E/d:Api/f:TestFixtureRunner.cs" caret="4540" fromTop="9" />
+      <File id="9F6E4B0A-2174-4F5D-8F3B-48B5FC1F898E/d:TestDummies/f:TestUnhandledExceptionDuringRunTests.cs" caret="226" fromTop="4" />
+      <File id="9F6E4B0A-2174-4F5D-8F3B-48B5FC1F898E/d:TestDummies/f:TestUnhandledExceptionDuringRunTests.cs" caret="808" fromTop="9" />
+      <File id="9F6E4B0A-2174-4F5D-8F3B-48B5FC1F898E/d:TestDummies/f:TestUnhandledExceptionDuringRunTests.cs" caret="892" fromTop="8" />
+      <File id="9F6E4B0A-2174-4F5D-8F3B-48B5FC1F898E/d:TestDummies/f:TestUnhandledExceptionDuringRunTests.cs" caret="1558" fromTop="8" />
+      <File id="DB9A99EB-EDFC-486C-BE28-C8F9CEA82E8E/d:Api/f:TestFixtureRunner.cs" caret="3638" fromTop="11" />
+      <File id="DB9A99EB-EDFC-486C-BE28-C8F9CEA82E8E/d:Api/f:TestFixtureRunner.cs" caret="4193" fromTop="14" />
+      <File id="9F6E4B0A-2174-4F5D-8F3B-48B5FC1F898E/d:TestDummies/f:TestUnhandledExceptionDuringRunTests.cs" caret="1769" fromTop="10" />
+      <File id="9F6E4B0A-2174-4F5D-8F3B-48B5FC1F898E/d:TestDummies/f:TestUnhandledExceptionDuringRunTests.cs" caret="1236" fromTop="14" />
+      <File id="9F6E4B0A-2174-4F5D-8F3B-48B5FC1F898E/d:TestDummies/f:TestUnhandledExceptionDuringRunTests.cs" caret="1400" fromTop="15" />
+      <File id="9F6E4B0A-2174-4F5D-8F3B-48B5FC1F898E/d:TestDummies/f:TestUnhandledExceptionDuringRunTests.cs" caret="743" fromTop="14" />
+      <File id="DB9A99EB-EDFC-486C-BE28-C8F9CEA82E8E/f:TestResults.cs" caret="183" fromTop="3" />
+      <File id="DB9A99EB-EDFC-486C-BE28-C8F9CEA82E8E/f:TestResults.cs" caret="513" fromTop="9" />
+      <File id="DB9A99EB-EDFC-486C-BE28-C8F9CEA82E8E/f:TestResults.cs" caret="712" fromTop="14" />
+    </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
     <NAntPath value="" />
@@ -21,4 +72,126 @@
     </NUnitInstallDir>
     <UseAddins>Never</UseAddins>
   </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="11" />
+      <Item value="bool" priority="1" />
+      <Item value="return" priority="3" />
+      <Item value="value" priority="0" />
+      <Item value="void" priority="6" />
+      <Item value="TestMethod" priority="6" />
+      <Item value="FooInDummyAppTest`0" priority="0" />
+      <Item value="new" priority="6" />
+      <Item value="Foo" priority="1" />
+      <Item value="Assert" priority="4" />
+      <Item value="foo" priority="1" />
+      <Item value="string" priority="8" />
+      <Item value="Expectation" priority="0" />
+      <Item value="expectation" priority="0" />
+      <Item value="test" priority="1" />
+      <Item value="a" priority="0" />
+      <Item value="expected" priority="1" />
+      <Item value="actual" priority="1" />
+      <Item value="internal" priority="4" />
+      <Item value="object" priority="0" />
+      <Item value="nullObject" priority="0" />
+      <Item value="testExecutionTree" priority="0" />
+      <Item value="testFailed" priority="0" />
+      <Item value="try" priority="3" />
+      <Item value="methodInfo" priority="1" />
+      <Item value="class" priority="1" />
+      <Item value="Exception`0" priority="3" />
+      <Item value="Attribute`0" priority="0" />
+      <Item value="Type`0" priority="2" />
+      <Item value="testMethodAttributes" priority="0" />
+      <Item value="exception" priority="12" />
+      <Item value="typeof" priority="2" />
+      <Item value="throw" priority="2" />
+      <Item value="ExpectedExceptionAttribute`0" priority="1" />
+      <Item value="ExceptionType" priority="0" />
+      <Item value="exceptionType" priority="6" />
+      <Item value="NullReferenceException`0" priority="1" />
+      <Item value="ExpectedException" priority="0" />
+      <Item value="if" priority="2" />
+      <Item value="testFixture" priority="8" />
+      <Item value="this" priority="2" />
+      <Item value="TestEventArgs" priority="1" />
+      <Item value="message" priority="1" />
+      <Item value="Message" priority="0" />
+      <Item value="TestClass" priority="1" />
+      <Item value="ClassName" priority="0" />
+      <Item value="_className" priority="0" />
+      <Item value="_methodName" priority="0" />
+      <Item value="ArgumentNullException`0" priority="0" />
+      <Item value="null" priority="1" />
+      <Item value="namespace" priority="0" />
+      <Item value="Foo`0" priority="0" />
+      <Item value="SetFixtureToFailed`0" priority="1" />
+      <Item value="continue" priority="1" />
+      <Item value="methodName" priority="1" />
+      <Item value="Assert_PassedTest`0" priority="0" />
+      <Item value="true" priority="0" />
+      <Item value="false" priority="0" />
+      <Item value="Exception" priority="1" />
+      <Item value="FailedTests" priority="0" />
+      <Item value="testEventArgs" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XnaMobileUnit.Assert">
+      <Item value="IsTrue`0" priority="1" />
+      <Item value="AreEqual`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DummyGameApp.Foo">
+      <Item value="Bar`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:">
+      <Item value="Equals`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="1" />
+      <Item value="Empty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.KeyValuePair`2">
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XnaMobileUnit.TestEventArgs">
+      <Item value="Expectation" priority="0" />
+      <Item value="TestMethod" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.MethodInfo">
+      <Item value="Attributes" priority="0" />
+      <Item value="GetCustomAttributes`0" priority="0" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XnaMobileUnit.Api.ExpectedExceptionAttribute">
+      <Item value="ExceptionType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="GetType`0" priority="2" />
+      <Item value="Message" priority="1" />
+      <Item value="InnerException" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="ToString`0" priority="0" />
+      <Item value="Name" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XnaMobileUnit.FrameWork.TestFixture">
+      <Item value="FailedAssert`0" priority="0" />
+      <Item value="Failed`0" priority="0" />
+      <Item value="SetClassName`0" priority="0" />
+      <Item value="GetType`0" priority="1" />
+      <Item value="SetMethodName`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XnaMobileUnit.UnitTests.TestDummies.Foo">
+      <Item value="Bar`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XnaMobileUnit.FrameWork.ExpectedExceptionAttribute">
+      <Item value="ExceptionType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="ContainsKey`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
 </Configuration>

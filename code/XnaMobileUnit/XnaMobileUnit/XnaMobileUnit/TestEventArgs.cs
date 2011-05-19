@@ -7,5 +7,6 @@ namespace XnaMobileUnit
         public string Message;
         public string TestMethod;
         public string TestClass;
+        public string Expectation;
     }
 }
